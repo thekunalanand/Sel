@@ -35,15 +35,15 @@ time.sleep(7)
 # You can use the execute_script() method to execute JavaScript code in the current page
 # Replace the code below with your own JS code
 
-with open("/Users/kunal/Desktop/notallowed.js", "r") as f:
+with open("notallowed.js", "r") as f:
   js_code1 = f.read()
 
 driver.execute_script(js_code1)
-with open("/Users/kunal/Desktop/duptext.js", "r") as t:
+with open("duptext.js", "r") as t:
   js_code2 = t.read()
 
 driver.execute_script(js_code2)
-with open("/Users/kunal/Desktop/duplicatehash.js", "r") as y:
+with open("Duplicatehash.js", "r") as y:
   js_code3 = y.read()
 
 driver.execute_script(js_code3)
