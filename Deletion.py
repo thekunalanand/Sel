@@ -10,7 +10,7 @@ from selenium import webdriver
 import time
 
 # 1. Open a URL
-driver = webdriver.Chrome()
+driver = webdriver.Chrome(executable_path="chromedriver")
 driver.get("https://anonib.al/latestPostings.js")
 
 # 2. Click on login field and enter value: unicorn
